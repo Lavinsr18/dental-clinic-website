@@ -1,5 +1,5 @@
 import React from "react";
-import BannerImg from "../../assets/4547829.jpg";
+import BannerImg from "../../assets/new/header-bg.png";
 import { GrSecure } from "react-icons/gr";
 import { IoFastFood } from "react-icons/io5";
 import { GiFoodTruck } from "react-icons/gi";
@@ -14,9 +14,10 @@ const Banner = () => {
             <img
               src={BannerImg}
               alt=""
-              className="max-w-[400px] h-[350px] w-full mx-auto  object-cover"
+              className="max-w-[400px] h-[500px] w-full mx-auto  object-cover"
             />
           </div>
+          
 
           {/* text details section */}
           <div className="flex flex-col justify-center gap-6 sm:pt-0">
@@ -46,12 +47,18 @@ const Banner = () => {
               <div data-aos="fade-up" className="flex items-center gap-4">
                 <GiFoodTruck className="text-4xl h-12 w-12 shadow-sm p-4 rounded-full bg-yellow-100 dark:bg-yellow-400" />
                 <p>Get Offers</p>
+                <div>
+      </div>
               </div>
+                <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-5 rounded-md">
+              View All Button
+            </button>
             </div>
           </div>
         </div>
       </div>
     </div>
+  
   );
 };
 

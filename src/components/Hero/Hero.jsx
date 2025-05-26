@@ -2,30 +2,26 @@ import React from "react";
 import Image1 from "../../assets/hero/women.png";
 import Image2 from "../../assets/hero/shopping.png";
 import Image3 from "../../assets/hero/sale.png";
+import Video1 from "../../assets/new/rvg.mp4"; // Example video file
+// import Video2 from "../../assets/videos/video2.mp4"; // Another video file
 import Slider from "react-slick";
 
 const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Upto 50% off on all Men's Wear",
+    title: "Elevate Your Workflow With",
     description:
-      "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "ESSENTIAL DENTAL EQUIPMENTS",
   },
-  {
-    id: 2,
-    img: Image2,
-    title: "30% off on all Women's Wear",
-    description:
-      "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
+  
   {
     id: 3,
     img: Image3,
     title: "70% off on all Products Sale",
-    description:
-      "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    description: "", 
   },
+  
 ];
 
 const Hero = ({ handleOrderPopup }) => {
@@ -62,14 +58,14 @@ const Hero = ({ handleOrderPopup }) => {
                   >
                     {data.title}
                   </h1>
-                  <p
+                  <h1
                     data-aos="fade-up"
                     data-aos-duration="500"
                     data-aos-delay="100"
                     className="text-sm"
                   >
                     {data.description}
-                  </p>
+                  </h1>
                   <div
                     data-aos="fade-up"
                     data-aos-duration="500"

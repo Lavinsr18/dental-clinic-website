@@ -5,6 +5,8 @@ import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
 import DarkMode from "./DarkMode";
 import { FiShoppingBag } from "react-icons/fi";
+import { FaUser } from "react-icons/fa";
+import Logo from "../../assets/new/logo.png";
 
 const Menu = [
   {
@@ -14,22 +16,22 @@ const Menu = [
   },
   {
     id: 2,
-    name: "Top Rated",
+    name: "Products",
     link: "/#services",
   },
   {
     id: 3,
-    name: "Kids Wear",
-    link: "/#",
-  },
-  {
-    id: 3,
-    name: "Mens Wear",
-    link: "/#",
-  },
-  {
-    id: 3,
     name: "Electronics",
+    link: "/#",
+  },
+  {
+    id: 3,
+    name: "Contact",
+    link: "/#",
+  },
+  {
+    id: 3,
+    name: "About",
     link: "/#",
   },
 ];
@@ -37,17 +39,17 @@ const Menu = [
 const DropdownLinks = [
   {
     id: 1,
-    name: "Trending Products",
+    name: "Dental Chair",
     link: "/#",
   },
   {
     id: 2,
-    name: "Best Selling",
+    name: "Endo-Motor",
     link: "/#",
   },
   {
     id: 3,
-    name: "Top Rated",
+    name: "X-rays",
     link: "/#",
   },
 ];
@@ -61,9 +63,9 @@ const Navbar = ({ handleOrderPopup }) => {
           <div>
             <a href="#" className="font-bold text-xl items-center flex gap-1">
               <FiShoppingBag size="30" />
-              ShopMe
             </a>
           </div>
+  
 
           {/* search bar */}
           <div className="flex justify-between items-center gap-4">
@@ -87,6 +89,10 @@ const Navbar = ({ handleOrderPopup }) => {
               </span>
               <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
             </button>
+
+            <button className="login">
+          <FaUser style={{ marginRight: "8px", width:'20px' }} />
+        </button>
 
             {/* Darkmode Switch */}
             <div>
