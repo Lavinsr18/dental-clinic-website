@@ -1,5 +1,4 @@
 import React from "react";
-
 import { IoMdSearch } from "react-icons/io";
 import { FaCartShopping } from "react-icons/fa6";
 import { FaCaretDown } from "react-icons/fa";
@@ -7,6 +6,8 @@ import DarkMode from "./DarkMode";
 import { FiShoppingBag } from "react-icons/fi";
 import { FaUser } from "react-icons/fa";
 import Logo from "../../assets/new/logo.png";
+import {Link} from "react-router-dom";
+// import Login from "../Navbar/login"
 
 const Menu = [
   {
@@ -90,9 +91,11 @@ const Navbar = ({ handleOrderPopup }) => {
               <FaCartShopping className="text-xl text-white drop-shadow-sm cursor-pointer" />
             </button>
 
-            <button className="login">
-          <FaUser style={{ marginRight: "8px", width:'20px' }} />
-        </button>
+      {/*Login*/}
+      <a className="login" onClick={() => setShowLogin(!showLogin)}>
+        <FaUser style={{ marginRight: "8px", width: "20px" } } />
+      </a>
+        
 
             {/* Darkmode Switch */}
             <div>

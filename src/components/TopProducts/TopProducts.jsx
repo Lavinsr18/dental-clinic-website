@@ -1,7 +1,7 @@
 import React from "react";
 import Img1 from "../../assets/new/dental_chair.png";
 import Img2 from "../../assets/new/material.png";
-import Img3 from "../../assets/new/machine.jpeg";
+import Img3 from "../../assets/mach.png";
 import { FaStar } from "react-icons/fa";
 
 const ProductsData = [

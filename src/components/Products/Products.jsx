@@ -1,7 +1,7 @@
 import React from "react";
-import Img1 from "../../assets/new/impres.png";
-import Img2 from "../../assets/new/ortho.png";
-import Img3 from "../../assets/new/oral.png";
+import Img1 from "../../assets/protho.png";
+import Img2 from "../../assets/orthodon.png";
+import Img3 from "../../assets/os.png";
 import Img4 from "../../assets/new/files.png";
 import Img5 from "../../assets/new/equip.png";
 import { FaStar } from "react-icons/fa6";

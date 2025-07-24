@@ -9,7 +9,7 @@ import Banner from "./components/Banner/Banner";
 import Subscribe from "./components/Subscribe/Subscribe";
 import Testimonials from "./components/Testimonials/Testimonials";
 import Footer from "./components/Footer/Footer";
-import Popup from "./components/Popup/Popup";
+import Popup from "./components/Popup/Popup"
 
 const App = () => {
   const [orderPopup, setOrderPopup] = React.useState(false);
